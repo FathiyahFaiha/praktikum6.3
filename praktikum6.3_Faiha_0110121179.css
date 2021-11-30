@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: peachpuff;
+}
+
+.container{
+    padding: 0 20px;
+}
+
+.main{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header,footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: skyblue;
+    font-size: 2em;
+    font-weight: bold;
+    flex: 5;
+    height: 100px;
+    margin: 20px 0;
+    color: white;
+}
+
+aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: darkcyan ;
+    font-size: 2em;
+    font-weight: bold;
+    flex: 1;
+    height: 500px;
+    margin-right: 20px;
+    color: white;
+}
+
+article{
+    background-color: palevioletred;
+    flex: 3;
+    height: 500px;
+    color: white;
+}
+
+.gambar img{
+    width: 350px;
+    height: 200px;
+}
+
+.gambar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    top: 15em;
+}
+
+h1{
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 6em;
+    color: white;
+}
